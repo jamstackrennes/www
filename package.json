@@ -8,7 +8,7 @@
     "lint": "eslint src",
     "dev": "run-p dev:**",
     "dev:hugo": "hugo -d ../dist -s site -vw",
-    "dev:webpack": "webpack-dev-server --config webpack.dev.js",
+    "dev:webpack": "webpack-dev-server --port=3001 --config webpack.dev.js",
     "preview": "run-p preview:**",
     "preview:hugo": "npm run dev:hugo -- -D -F",
     "preview:webpack": "npm run dev:webpack",
@@ -64,6 +64,7 @@
   },
   "dependencies": {
     "bulma": "^0.7.4",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.12.0",
+    "tailwindcss": "^1.1.2"
   }
 }
