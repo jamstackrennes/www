@@ -1,98 +1,16 @@
 {{ define "main" }}
 <div class="section">
   <div class="columns is-centered">
-    <div
-      class="flex text-purple-900 is-1"
-      style="font-size: 4em;"
-    >
-      <span><</span>
-      <span>
-          <svg
-        xmlns="http://www.w3.org/2000/svg"
-        version="1.1"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        xmlns:svgjs="http://svgjs.com/svgjs"
-        viewBox="0 0 100 100"
-        height="100"
-        width="100"
-      >
-        <title>THIS IS A 🦌 RENNE TAG</title>
-        <g transform="matrix(4.166666666666667,0,0,4.166666666666667,0,0)">
-          <path
-            d="M 10.5,21.242v-1.957c0-4.524-6.75-5.775-6.75-14.184V2.655 "
-            stroke="#9701ff"
-            fill="none"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          ></path>
-          <path
-            d="M 0.75,4.742c0,0,0.15,2.25,3.15,2.437 "
-            stroke="#9701ff"
-            fill="none"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          ></path>
-          <path
-            d="M 0.75,9.992 c0,0,1.159,2.985,5.244,2.251 "
-            stroke="#9701ff"
-            fill="none"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          ></path>
-          <path
-            d="M 2.25,15.242c0,0,0.412,3.041,7.213,1.126 "
-            stroke="#9701ff"
-            fill="none"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          ></path>
-          <path
-            d="M 13.5,21.242v-1.957c0-4.524,6.75-5.775,6.75-14.184V2.655 "
-            stroke="#9701ff"
-            fill="none"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          ></path>
-          <path
-            d="M 23.25,4.742c0,0-0.15,2.25-3.15,2.437 "
-            stroke="#9701ff"
-            fill="none"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          ></path>
-          <path
-            d="M 23.25,9.992c0,0-1.159,2.985-5.244,2.251 "
-            stroke="#9701ff"
-            fill="none"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          ></path>
-          <path
-            d="M 21.75,15.242c0,0-0.412,3.041-7.213,1.126"
-            stroke="#9701ff"
-            fill="none"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          ></path>
-        </g>
-      </svg>
-      </span>
-      <span>/></span>
-    </div>
+    <img src="/logo/logo.png" alt="" />
   </div>
   <div class="columns is-centered">
     <div class="column is-three-quarters">
       <h1 class="text-4xl">JAMstack_Rennes</h1>
-      <h2 class="text-2xl">Meetup le 16 Octobre 2019 (lieu à confirmer)</h2>
-      <div class="text-sm text-gray-500 mb-6">🍻 On recherche un bar sympa avec un petite scène par maximiser le contexte sympathique</div>
+      <h2 class="text-2xl">Meetup le <strike>16 Octobre 2019</strike> (date à confirmer)</h2>
+      <div class="text-sm text-gray-500 mb-6">
+        🍻 On recherche un bar sympa avec un petite scène par maximiser le
+        contexte sympathique
+      </div>
       <div class="content">
         <p>
           Le 16 octobre 2019 aura lieu à San Francisco la
@@ -106,8 +24,8 @@
       </div>
       <div class="title is-4">Pour parler de quoi et avec qui ?</div>
       <div class="flex flex-col mb-4">
-        <div class="flex flex-col sm:flex-row p-4 rounded bg-purple-100 my-2">
-          <div class="flex items-start w-full sm:w-auto sm:mt-1 sm:mr-2">
+        <div class="flex flex-col sm:flex-row p-4 rounded bg-pink-100 my-2">
+          <div class="flex items-start w-full sm:w-auto sm:mt-1 sm:mr-6">
             <img
               class="object-scale-down mx-auto rounded"
               src="/avatars/claire.jpg"
@@ -133,8 +51,8 @@
             "sur le terrain".
           </div>
         </div>
-        <div class="flex flex-col sm:flex-row p-4 rounded bg-purple-100 my-2">
-          <div class="flex items-start w-full sm:w-auto sm:mt-1 sm:mr-2">
+        <div class="flex flex-col sm:flex-row p-4 rounded bg-pink-100 my-2">
+          <div class="flex items-start w-full sm:w-auto sm:mt-1 sm:mr-6">
             <img
               class="object-scale-down mx-auto rounded"
               src="/avatars/yann.jpg"
@@ -143,18 +61,84 @@
           </div>
           <div class="w-full">
             <div class="text-lg font-black mb-4">
-              De la JamStack et Blogify avec Yann
+              De la JAMstack et Blogify avec Yann
             </div>
             <a href="https://twitter.com/yann_yinn">Yann Boisselier</a> va
-            débarquer de Nantes (où il a lancé le très intéressant réseau de dev freelances
+            débarquer de Nantes (où il a lancé le très intéressant réseau de dev
+            freelances
             <a href="http://popcorn-nantes.github.io">🍿Popcorn nantes</a>).
-            <br>
-            <br>
-            Il va nous faire découvrir le coeur de la JAMStack selon lui (génération de site
-            statique par un client JS + APIs), les avantages que ça apporte pour
-            un blog et comment gérer son blog avec <a href="https://blogify.io">Blogify</a> (dont il est, aussi, l'auteur)
+            <br />
+            <br />
+            Il va nous faire découvrir le coeur de la JAMStack selon lui
+            (génération de site statique par un client JS + APIs), les avantages
+            que ça apporte pour un blog et comment gérer son blog avec
+            <a href="https://blogify.io">Blogify</a> (dont il est, aussi,
+            l'auteur)
             <br />
           </div>
+        </div>
+      </div>
+      <div class="title is-4 mt-8">
+        Suivre
+      </div>
+      <div class=" bg-white text-xl  rounded my-8">
+        <div class="flex items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs"
+            viewBox="0 0 24 24"
+            height="24"
+            width="24"
+            class="mr-4"
+          >
+            <title>
+              Twitter
+            </title>
+            <g transform="matrix(1,0,0,1,0,0)">
+              <path
+                d="M 23.18,6.71l-2.1-0.9l1.1-2.4l-2.56,0.85c-0.815-0.76-1.885-1.188-3-1.2c-2.483,0.005-4.495,2.017-4.5,4.5v1 c-3.54,0.73-6.63-1.2-9.5-4.5c-0.5,2.667,0,4.667,1.5,6l-3.29-0.5c0.262,2.186,2.052,3.871,4.25,4l-2.75,1c1,2,2.82,2.31,5.25,2.5 c-1.986,1.355-4.346,2.054-6.75,2c12.76,5.67,20.25-2.66,20.25-10V8.23L23.18,6.71z"
+                stroke="#000000"
+                fill="none"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </g>
+          </svg>
+          <a href="https://jamstatic.fr/2019/02/07/c-est-quoi-la-jamstack/"
+            >@jamstackrennes</a
+          >
+        </div>
+        <div class="flex items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.com/svgjs"
+            viewBox="0 0 24 24"
+            height="24"
+            width="24"
+            class="mr-4"
+          >
+            <title>
+              github
+            </title>
+            <g transform="matrix(1,0,0,1,0,0)">
+              <path
+                d="M 14.41,22.35c0,0.276,0.224,0.5,0.5,0.5c0.047,0,0.095-0.007,0.14-0.02c5.969-1.723,9.412-7.959,7.689-13.929 C21.016,2.932,14.779-0.511,8.81,1.213s-9.412,7.959-7.689,13.929c1.072,3.714,3.975,6.617,7.689,7.689 c0.265,0.077,0.543-0.075,0.62-0.34c0.013-0.045,0.02-0.093,0.02-0.14V20C8.026,20.43,6.513,19.676,6,18.28 C5.72,17.429,5.256,16.65,4.64,16c2.85,0.69,2.9,2.54,4.84,1.67c0.059-0.649,0.275-1.274,0.63-1.82c-2.2-0.25-4.52-0.6-4.52-4.4 c-0.019-0.982,0.339-1.934,1-2.66c-0.301-0.854-0.265-1.791,0.1-2.62c0,0,0.83-0.27,2.73,1c1.636-0.452,3.364-0.452,5,0 c1.89-1.28,2.72-1,2.72-1c0.365,0.829,0.401,1.766,0.1,2.62c0.662,0.726,1.02,1.678,1,2.66c0,3.81-2.32,4.15-4.53,4.39 c0.473,0.682,0.712,1.5,0.68,2.33L14.41,22.35z"
+                stroke="#000000"
+                fill="none"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </g>
+          </svg>
+          <a href="https://github.com/jamstackrennes/www"
+            >https://github.com/jamstackrennes/www</a
+          >
         </div>
       </div>
       <div class="title is-4">Quelques liens</div>
@@ -175,6 +159,7 @@
       </div>
 
       <div class="title is-4">On vous tient au jus ?</div>
+
       <div class="content">
         <form name="contact" class="form" method="POST" data-netlify="true">
           <p>
