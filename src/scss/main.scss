@@ -12,13 +12,31 @@ h1, h2, h3, h4, h5, h6, .is-1, .is-2, .is-3, .is-4, .is-5, .is-6 {
     color: #FF117E;
 }
 
+
 body {
     background-color: white;
     height: 100%;
-    background-image: url(/images/wave.svg) bottom;
 }
 
 p {
     margin-bottom: 1rem;
 }
 
+.container {
+    overflow-wrap:break-word;
+    overflow-x: hidden;
+
+    /* These are technically the same, but use both */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+    -ms-word-break: break-all;
+    word-break: break-word;
+
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+
+}
