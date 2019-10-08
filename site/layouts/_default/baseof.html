@@ -28,7 +28,9 @@
     {{ block "footer" . }}{{ partial "footer" . }}{{end}}
     <div class="bgBottom"></div>
 </div>
-
+{{ with .GitInfo }}
+<div class="text-center container text-xs text-gray-500 w-full">{{ .Hash }}</div>
+{{ end }}
 </body>
 </html>
 
