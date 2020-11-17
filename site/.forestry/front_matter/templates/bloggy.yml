@@ -16,3 +16,5 @@ fields:
     schema:
       format: markdown
   label: contenu
+pages:
+- site/content/titreeee.md
